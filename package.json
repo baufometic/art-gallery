@@ -17,7 +17,7 @@
 		"@fortawesome/free-solid-svg-icons": "^5.15.3",
 		"@fortawesome/react-fontawesome": "^0.1.14",
 		"markdown-it": "^12.2.0",
-		"maximilian": "file:../../apps/maximilian/maximilian-0.1.35.tgz",
+		"maximilian": "latest",
 		"next": "11.1.2",
 		"react": "17.0.2",
 		"react-dom": "17.0.2",

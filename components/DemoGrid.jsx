@@ -98,7 +98,7 @@ const DemoGrid = ({ items }) => {
 						</div>
 		
 						{ Object.entries(Palettes[paletteName]).map((variation) => {
-							const [ variationName, variationValue ] = variation;
+							const [ variationName, ] = variation;
 
 							return(
 								<div

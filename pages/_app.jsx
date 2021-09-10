@@ -1,14 +1,9 @@
-// TODO sort out the process.env for logging disabled on production
-// TODO make sure every component has __DEV && Log.Mounted & __DEV && Log.Render.
-// TODO update css as ive sweitche from fragment to 'classname app'
-// TODO get the layout from old CRA backup, want to know what the 100vh etc settings are. THey tooka  bit of tweaking - it would be good to have them.
-
 /* eslint-disable no-console */
 //________________________________________ IMPORTS ________________________________________
 import GlobalStyle from "../styles/GlobalStyle";
 import styled, { css, ThemeProvider } from "styled-components";
 import themeList from "../styles/themeList";
-import { DevControls, SASS, useTheme } from "maximilian";
+import { SASS, useTheme } from "maximilian";
 import { useComponent } from "../hooks/useComponent";
 import AppProvider, { APP_DATA } from "../contexts/AppContext";
 import Header from "../components/Header";
@@ -55,16 +50,13 @@ const App = ({ Component, pageProps }) => {
 			"background-color: black; color: gold; font-size: 14px; margin: 5px;");
 	});
 	
-	const [ { currentTheme }, ThemeControls ] = useTheme(themeList, false, 5000);
+	const [ { currentTheme } ] = useTheme(themeList, false, 5000);
 	
 	return(
 		<AppProvider>
 			<ThemeProvider theme={ currentTheme }>
 				<Layout>
 					<GlobalStyle />
-					{/* <DevControls />
-					<ThemeControls /> */}
-					
 					<Header />
 					<Component { ...pageProps } />
 					<Footer />

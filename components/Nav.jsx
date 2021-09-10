@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styled from "styled-components";
-import { Log, Palettes, SASS } from "maximilian";
+import { Log, SASS } from "maximilian";
 import { useComponent } from "../hooks/useComponent";
 import { FontList } from "./Fonts";
 import { withRouter } from "next/router";

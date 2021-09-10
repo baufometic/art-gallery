@@ -174,58 +174,6 @@ const titleArray = [
 	]
 ];
 
-const __titleArray = [
-	[
-		"   welcome to       ",
-		"    tech & tribal   "
-	],
-	"   web three     ",
-	"   web solid     ",
-	"       solidity  ",
-	[
-		"       Whether you're   ",
-		"       at summit        ",
-		"   or brain-wave        "
-	],
-	[
-		"  lets grow together       ",
-		"  and see how thin         ",
-		"  the air gets at the top  "
-	],
-	[
-		"       bespoke,        ",
-		"    laser targeted,    ",
-		"  full-stack websites  "
-	],
-	[
-		"  you're closer     ",
-		"    than you think  "
-	],
-
-	/*
-	[
-		"adaptive css",
-		"like a quantised pool",
-		"based on personality",
-	],
-
-	[
-		"css should be fluent",
-		"and js makes that possible"
-	],
-	
-	[
-		"no neural nets learning",
-		"your every spending habit"
-	],
-
-	[
-		"or giving your data away",
-		"web three changes all of that",
-		"it's on the cusp of human fabric"
-	]*/
-];
-
 const REPEAT = false;
 
 const TribalText = () => {
