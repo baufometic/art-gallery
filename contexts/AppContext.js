@@ -3,10 +3,10 @@ import { useComponent } from "../hooks/useComponent";
 
 //________________________________________ APP DATA ________________________________________
 export const APP_DATA = new function() {
-	this.name = "INDIAN NATION";
+	this.name = "ART GALLERY";
 	this.description = "Pure and authentic";
 	this.tag = "Pure and authentic.";
-	this.url = "https://indiannation.com";
+	this.url = "https://techandtribal.com.com";
 	this.colour = "#4B4A69";
 };
 

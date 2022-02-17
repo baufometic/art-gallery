@@ -167,7 +167,7 @@ const titleArray = [
 	],
 	[
 		"   welcome to       ",
-		"    indian nation   "
+		"   css art gallery  "
 	],
 	[
 		"    "

@@ -1,7 +1,7 @@
 {
 	"author": "Pete Savva <p.savva@protonmail.ch> (https://techandtribal.com)",
-	"description": "Official Site of Indian Nation",
-	"name": "indiannation",
+	"description": "Art gallery in pure CSS",
+	"name": "art-gallery",
 	"private": true,
 	"version": "0.1.0",
 	"scripts": {
